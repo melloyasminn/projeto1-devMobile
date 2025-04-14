@@ -13,6 +13,14 @@ createApp({
         const image3 = ref ("assets/images/Red and Pink Simple Happy Valentine's Day Greeting Poster.png");
         const image4 = ref ("assets/images/Ivory Minimal Croissant Promotion Poster.png");
 
+        const descricao1 = ("loren");
+        const descricao2 = ("Loren");
+        const descricao3 = ("loren");
+        const descricao4 = ("loren");
+        const descricao5 = ("loren");
+        const descricao6 = ("loren");
+        const descricao7 = ("loren");
+
         return {
             product_title1: ref('tanan1'),
             product_title2: ref('tanan2'),
@@ -22,6 +30,16 @@ createApp({
             image2,
             image3,
             image4,
+            descricao1,
+            descricao2,
+            descricao3,
+            descricao4,
+            descricao5,
+            descricao6,
+            descricao7,
+            inStock: ref(10),
+            cart,
+            addToCart,
         }
     }
 }).mount('#container')
